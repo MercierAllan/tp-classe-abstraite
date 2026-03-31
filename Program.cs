@@ -10,5 +10,11 @@ class Program
         a1.AfficherGarentie();
         a1.AfficherInfos();
         Console.WriteLine(a1.ToString());
+
+        Appareil a2 = new Smartphone("Apple", "iPhone 12", new DateTime(2021, 10, 23), 3);
+        a2.Allumer();
+        a2.AfficherType();
+        a2.AfficherGarentie();
+        a2.AfficherInfos();
     }
 }
