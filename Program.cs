@@ -28,5 +28,20 @@ class Program
             appareil.AfficherGarentie();
             appareil.AfficherInfos();
         }
+    
+        Dictionary<string, Appareil> dictAppareils = new Dictionary<string, Appareil>();
+        dictAppareils.Add(a1.Modele, a1);
+        dictAppareils.Add(a2.Modele, a2);
+        string cleRecherche = "ThinkPad";
+        if (dictAppareils.ContainsKey(cleRecherche))
+        {
+            Appareil appareilTrouve = dictAppareils[cleRecherche];
+            Console.WriteLine($"Appareil trouvé : {appareilTrouve.ToString()}");
+        }
+        else
+        {
+            Console.WriteLine($"Aucun appareil trouvé avec le modèle : {cleRecherche}");
+        }
+
     }
 }

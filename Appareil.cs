@@ -29,4 +29,9 @@ abstract class Appareil
     public abstract void AfficherInfos();
 
     public abstract void CalculerAnciennete();
+
+    public string Modele
+    {
+        get { return modele; }
+    }
 }
