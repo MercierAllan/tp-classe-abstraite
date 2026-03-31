@@ -1,0 +1,4 @@
+1/Classe Appareil = abstraite car on la déclare avec "abstraite"
+2/Non il faudra déclarer juste apres le new la classe fille que l'on veut
+3/Différence est : Virtual = redéfinition possible dans la classe fille ou utilisée telle quelle
+alors que abstract = redéfinition obligatoire dans la classe fille 
