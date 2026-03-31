@@ -4,8 +4,6 @@ abstract class Appareil
     protected string modele;
     protected DateTime dateFabrication;
 
-    public Appareil(){}
-
     public Appareil(string marque, string modele, DateTime dateFabrication)
     {
         this.marque = marque;
