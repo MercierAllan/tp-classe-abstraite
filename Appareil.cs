@@ -16,12 +16,12 @@ abstract class Appareil
         Console.WriteLine("L'appareil s'allume");
     }
 
-    public void AfficherType()
+    public virtual void AfficherType()
     {
         Console.WriteLine("Je suis un appareil");
     }
 
-    public void AfficherGarentie()
+    public virtual void AfficherGarentie()
     {
         Console.WriteLine("Garantie standard de l'appareil");
     }

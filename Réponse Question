@@ -2,3 +2,4 @@
 2/Non il faudra déclarer juste apres le new la classe fille que l'on veut
 3/Différence est : Virtual = redéfinition possible dans la classe fille ou utilisée telle quelle
 alors que abstract = redéfinition obligatoire dans la classe fille 
+4/ ToSting() est utile car elle permet d'être héritée de la classe Object et peut être surchagée pour afficher des informations pertinentes sur l'état interne d'une instance
