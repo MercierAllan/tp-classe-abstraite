@@ -43,5 +43,15 @@ class Program
             Console.WriteLine($"Aucun appareil trouvé avec le modèle : {cleRecherche}");
         }
 
+        CatalogueAppareils catalogue = new CatalogueAppareils();
+        catalogue.AjouterAppareil(a1);
+        catalogue.AjouterAppareil(a2);
+
+        Console.WriteLine("Recherche dans le catalogue :");
+        catalogue.RechercheAppareil("ThinkPad");
+
+        Console.WriteLine("Recherche dans le catalogue :");
+        catalogue.RechercheAppareil("ThinkPad");
+
     }
 }
