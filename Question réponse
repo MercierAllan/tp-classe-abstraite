@@ -4,3 +4,4 @@
 alors que abstract = redéfinition obligatoire dans la classe fille 
 4/ ToSting() est utile car elle permet d'être héritée de la classe Object et peut être surchagée pour afficher des informations pertinentes sur l'état interne d'une instance
 5/La version utilisé sera celle définit dans la classe Ordinateur
+6/Puisque ce sont des classes abstraite elles peuvent être utilisées pour créer des références de type Appareil qui peuvent référencer des objets de type Ordinateur ou autre types

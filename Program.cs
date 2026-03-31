@@ -16,5 +16,17 @@ class Program
         a2.AfficherType();
         a2.AfficherGarentie();
         a2.AfficherInfos();
+
+        List<Appareil> appareils = new List<Appareil>();
+        appareils.Add(a1);
+        appareils.Add(a2);
+
+        foreach (Appareil appareil in appareils)
+        {
+            appareil.Allumer();
+            appareil.AfficherType();
+            appareil.AfficherGarentie();
+            appareil.AfficherInfos();
+        }
     }
 }
